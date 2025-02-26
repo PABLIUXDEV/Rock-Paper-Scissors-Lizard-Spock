@@ -64,8 +64,6 @@ elif player == 1 and npc == 5:
 elif player == 2 and npc == 1:
   print("Paper covers Rock.")
   print("Player wins!")
-elif player == 2 and npc == 2:
-  print("It's a tie!")
 elif player == 2 and npc == 3:
   print("Scissors cut Paper.")
   print("Computer wins!")
@@ -81,8 +79,6 @@ elif player == 3 and npc == 1:
 elif player == 3 and npc == 2:
   print("Paper covers Rock.")
   print("Player wins!")
-elif player == 3 and npc == 3:
-  print("It's a tie!")
 elif player == 3 and npc == 4:
   print("Scissors beat Lizard")
   print("Player wins!")
@@ -98,8 +94,6 @@ elif player == 4 and npc == 2:
 elif player == 4 and npc == 3:
   print("Scissors beat Lizard.")
   print("Computer wins!")
-elif player == 4 and npc == 4:
-  print("It's a tie!")
 elif player == 4 and npc == 5:
   print("Lizard poisons Spock!")
   print("Player wins!")
@@ -115,8 +109,5 @@ elif player == 5 and npc == 3:
 elif player == 5 and npc == 4:
   print("Lizard poisons Spock!")
   print("Computer wins!")
-elif player == 5 and npc == 5:
-  print("It's a tie!")
 else:
   print("not defined")
-
